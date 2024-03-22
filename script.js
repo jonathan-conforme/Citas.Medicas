@@ -10,7 +10,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     // Compararemos con una clave de ejemplo 'clave'
     if (username === 'admin' && password === 'admin') {
       // Si las credenciales son correctas, redirigir al usuario a la página de registro de citas médicas
-      window.location.href = 'inde.html'; // Cambiar 'registro.html' al nombre de tu archivo de registro
+      window.location.href = 'admin.html'; // Cambiar 'registro.html' al nombre de tu archivo de registro
     } else if (username === 'usuario' && password === 'usuario') {
       window.location.href = 'registro.html'; // Redirigir a la página de usuario normal
 }    
